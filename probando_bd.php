@@ -1,7 +1,7 @@
 <?php echo "<h2> Hola mundo de los micro-servicios </h2>";
 
 
-$enlace = mysqli_connect("miapp-mysql", "devel", "s3cure", "bd_prueba","3306");
+$enlace = mysqli_connect("miapp-mysql", "root", "123456", "bd_prueba","3306");
 //$enlace = mysqli_connect("127.0.0.1", "root", "", "bd_prueba");
 
 if (!$enlace) {
